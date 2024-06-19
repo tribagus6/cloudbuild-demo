@@ -3,7 +3,7 @@
 FROM node:14
 
 # Create and change to the app directory.
-WORKDIR /home/tripa/cloudbuild-demo
+WORKDIR /home/tripa/cloudbuild-demo/cloudbuild-demo
 
 # Copy application dependency manifests to the container image.
 # A wildcard is used to ensure both package.json AND package-lock.json are copied.
